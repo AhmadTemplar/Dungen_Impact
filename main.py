@@ -10,11 +10,11 @@ class player():
         self.maxDamage = 110
         self.minDamage = 50
     def attack(self):
-        self.Phatt = randit(self.minDamage, self.maxDamage)
+        dmg = randit(self.minDamage, self.maxDamage)
+        return dmg
         
 print('[ ---Welcome to DUNGEN IMPACT--- ]')
 ali = player('ali W')
 ahmad = player('ahmad R')
 
-ali.attack()
-dmg = ali.Phatt
+dmg = ali.attack()
