@@ -7,6 +7,10 @@ class player():
         self.maxHp = 500
         self.armor = 150
         self.maxEnergy = 100
-
-input(f'[ ---Welcome to DUNGEN IMPACT--- ]\n\n1- Start...')
-
+        
+    def attack(self):
+        ...
+        
+print('[ ---Welcome to DUNGEN IMPACT--- ]')
+ali = player('ali W')
+ahmad = player('ahmad R')
