@@ -18,7 +18,7 @@ class player():
         shi = dmg - 40, self.maxEnergy - 20
         
     def heal(self)
-    heal = self.maxHp + 40, self.maxEnergy - 15
+    hea = self.maxHp + 40, self.maxEnergy - 15
     
 print('[ ---Welcome to DUNGEN IMPACT--- ]')
 ali = player('ali W')
