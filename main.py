@@ -12,7 +12,14 @@ class player():
     def attack(self):
         dmg = randit(self.minDamage, self.maxDamage)
         return dmg
-        
+
+    
+    def shield(self):
+        shi = dmg - 40, self.maxEnergy - 20
+
+    def heal(self)
+    heal = self.maxHp + 40, self.maxEnergy - 15
+    
 print('[ ---Welcome to DUNGEN IMPACT--- ]')
 ali = player('ali W')
 ahmad = player('ahmad R')
