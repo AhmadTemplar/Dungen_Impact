@@ -15,3 +15,6 @@ class player():
 print('[ ---Welcome to DUNGEN IMPACT--- ]')
 ali = player('ali W')
 ahmad = player('ahmad R')
+
+ali.attack()
+dmg = ali.Phatt
