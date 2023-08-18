@@ -18,3 +18,4 @@ ali = player('ali W')
 ahmad = player('ahmad R')
 
 dmg = ali.attack()
+ahmad.maxHp -= dmg
