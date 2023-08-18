@@ -11,14 +11,13 @@ class player():
         self.minDamage = 50
         
     def attack(self):
-        dmg = randit(self.minDamage, self.maxDamage)
-        return dmg
-        
-    def shield(self):
-        shi = dmg - 40, self.maxEnergy - 20
-        
-    def heal(self)
-    heal = self.maxHp + 40, self.maxEnergy - 15
+        res = randit(self.minDamage, self.maxDamage)
+        return res
+            
+    def heal(self):
+    res = self.maxHp*40/100
+    self.maxHp += res
+    return res
     
 print('[ ---Welcome to DUNGEN IMPACT--- ]')
 ali = player('ali W')
@@ -26,3 +25,5 @@ ahmad = player('ahmad R')
 
 dmg = ali.attack()
 ahmad.maxHp -= dmg
+
+# majbor shodam beram dash , bye
