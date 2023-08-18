@@ -27,3 +27,4 @@ dmg = ali.attack()
 ahmad.maxHp -= dmg
 
 # majbor shodam beram dash , bye
+# no problme , Bye
