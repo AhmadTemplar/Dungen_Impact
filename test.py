@@ -35,3 +35,7 @@ class player():
 print('<[ ---Welcome to DUNGEN IMPACT--- ]>')
 ali = player('ali W')
 ahmad = player('ahmad R')
+
+
+  # dash saram shologh bod natonestam kari konam 
+  # farda zang mizanam ba ham rosh kar konim
