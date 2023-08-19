@@ -25,7 +25,7 @@ class player():
         return res
         
     def heal(self):
-        '''Increase selfHp 40% and Decrease selfEn 25 Point'''
+        '''Increase selfHp 40% and Decrease selfEng 25 Point'''
 
         res = self.maxHp*40/100
         self.maxHp += res
