@@ -1,2 +1,2 @@
 # Dungen_Impact
-the simple turn base game project
+The Simple Turn Base Game Project
