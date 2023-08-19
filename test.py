@@ -29,7 +29,7 @@ class player():
 
         res = self.maxHp*40/100
         self.maxHp += res
-        self.maxEn -= 15
+        self.maxEn -= 25
         return res
     
 print('<[ ---Welcome to DUNGEN IMPACT--- ]>')
